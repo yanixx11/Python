@@ -1,11 +1,14 @@
-# Login Security Practice
+Python Projects
 
-## What This Code Does
-This code allows a user to enter their credentials up to three times. After each attempt, the code checks whether the credentials are correct or incorrect. If the credentials are correct, access is granted and the program ends. If the credentials are incorrect, the user is prompted to try again. After three failed attempts, the account is locked.
+This repository contains Python projects I've built while learning
+Python fundamentals and applying them to IT and cybersecurity.
 
-## How the Code Works
-- `attempt = 0` keeps track of login attempts.
-- `while attempt < 3` allows up to three attempts.
-- `if` checks whether the password is correct.
-- `break` ends the loop after successful login.
-- `attempt += 1` increases the attempt counter.
+Projects:
+
+- login_security.py
+  A basic login system with password validation and account lockout
+  after three failed attempts.
+
+- system_information_tool.py
+  A command-line tool that displays system information such as the
+  operating system, computer name, processor, and Python version.
